@@ -1,0 +1,32 @@
+<EntityDescriptor entityID="http://localhost/sample/mellon/metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <KeyDescriptor use="signing">
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDrzCCAhcCFC06Zr72CrFH44vk7hIqW1a5WZBuMA0GCSqGSIb3DQEBCwUAMBQx
+  EjAQBgNVBAMMCWxvY2FsaG9zdDAeFw0yMzA0MTgxMzA4NDBaFw0zMzA0MTcxMzA4
+  NDBaMBQxEjAQBgNVBAMMCWxvY2FsaG9zdDCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+  ADCCAYoCggGBAJxotY+B2eIyXDULvSANa5ccZu4V8zfQOtas+D7eSLC18iePe9sP
+  0//vZE0tcTIkmom49fHRQswMb+cKpPRSzJsLGcl6PlXgoMaJNxZTIE/HHOBXpobM
+  30W3nkdM2D0Ai3gonL809tAT0bwYeZrb9ISw8GefR8UYdAxFxrnT3wiFBZWomdYS
+  q0xkkEXomwOZcrvrQ/f/WUgaXU4bGe5VIOPQOpBP5H+fQEAd1iUnFnbMlS0xSxti
+  56q2TcxbPmsRkUvLUPkipq7UNFRE/mdpd34NMtt8A2tuRCg14hOqDRxToGT2JDkf
+  JGdJMQcjyJlvvz8K2sP0O3ShbmCmfHvYpLcuRbdpDZRk6l1ME/BIRbAynIAK9m97
+  uwh9wsRcq4TNxXaB/ic6McxIsUFRNLlvLqzERFipd5HKoDjer2dG0vdosLVcqjLQ
+  OaFhCG298M4pgb7pH8Tg2hJ4NwXoTgBJ+ZV/DhYM46issVAtW9NU3sjFI40XWvhQ
+  Elevy2Xtx1sPfwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBgQATjRGn/b9uow6Wrf/B
+  0UIZNH+pRgYfJf7XGKJgjk2j1Ge/lIKkZV4w3beC8JptD6DgLrouseUYdiWiktNV
+  wPagWhqU8hMAYjhz1Hbs5XS3p6hdFhMc6xbTuCEMMglGqCaYVEiPXhO7iUT2KMd9
+  uv8JChoxxvfquVvNoVivjBRTm3qyFBVXqnUcGW6JQjw3FAV3YtL3N+sEFEl6X10f
+  htrCluXlLqpXN3IbMTmRRm6wrwY7A3otGf98hs5HNCnI+nu/zKBkZFCIpQAguFDN
+  TwT+TubLodiiozazMIYi390aYwXbX9f4Ll2Q6uP0Ff3wIZrzA9WXXfZtmai8VJtw
+  KvSv6yeDW91dO9itMBisy0LQ13HtJOKx7qiamcRGBn3FNy9YzoybbVhXmLOk7J7e
+  IlNvMZCT2qFrtCxPUDsW1yUourAZeH31r/70ydhtpLTVJxPXX/bOQVZTj2X3UXhW
+  e/zeH5knIIDXNPY14W/5D14TFq4Jk6YQNq3GV2bz3Wn/kz0=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </KeyDescriptor>
+      <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost/sample/mellon/logout"/>
+      <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost/sample/mellon/postResponse" index="0"/>
+    </SPSSODescriptor>
+  </EntityDescriptor>
